@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.sidebar.title("Whatsapp Chat Analyzer")
-
+st.sidebar.write("Use chat with 24-Hour time format")
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
